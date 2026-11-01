@@ -1,0 +1,57 @@
+node_modules/
+backend/node_modules/
+.env
+.DS_Store
+backend/.env.save
+
+dist/
+backend/server.js.backup
+
+# Temporary/debug files
+backend/helper-payment-debug.js
+backend/routes/taskRoutes.js.save
+
+# Backup/version files
+*.backup
+*.before-*
+*.save
+*.community-backup
+*.pre-google-fix
+
+# Uploaded resource images
+backend/uploads/resources/*.png
+
+# Local database backup
+campusshare_backup.sql
+backups/
+*.sql.backup
+*.sql.dump
+
+# Local Anaconda projects
+anaconda_projects/
+*.pre-*
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.example_DAY01_Database
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+
+# User-uploaded files and runtime data
+backend/uploads/
+backend/data/*.json
+
+# Old route backup copies
+backend/routes/*.backup.js
+backend/routes/*-backup.js
